@@ -1,8 +1,5 @@
-from cgitb import reset
 import os
 import glob
-import re
-from unittest import result
 
 EXE_FILE = glob.glob(os.path.dirname(os.path.abspath(__file__))+'\\'+'*.exe')[0]
 IN_FILE = glob.glob(os.path.dirname(os.path.abspath(__file__))+'\\'+'*.in')
